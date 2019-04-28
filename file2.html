@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Border Radius</title>
+    <style>
+        img {
+            width: 400px;
+            height: 400px;
+            float: left;
+            margin-right: 10px;
+            border: 2px dotted rgb(56, 248, 56);
+        }
+
+        .one {
+            border-radius: 200px 100px;
+        }
+
+        .two {
+            border-radius: 0px 200px 200px 200px;
+        }
+
+        .three {
+            border-radius: 50%;
+        }
+
+        body {
+            background: url(https://images.unsplash.com/photo-1556027006-790d4b2faa40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="..\images\temple.jpg" class="one">
+    <img src="..\images\temple.jpg" class="two">
+    <img src="..\images\temple.jpg" class="three">
+</body>
+
+</html>
